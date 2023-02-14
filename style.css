@@ -1,0 +1,32 @@
+body{
+    padding: 10px;
+}
+
+.logo{
+    font-size: xx-large;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+}
+
+.header {
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 30px;
+}
+
+.background{
+    background-image: url(/Content/beans.jpg);
+}
+
+ul{
+  list-style-type:none; 
+  display: flex;
+  gap: 50px; 
+}
+
+a{
+    text-decoration: none;
+    color: burlywood;
+    font-size: x-large;
+}
