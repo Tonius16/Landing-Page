@@ -1,12 +1,65 @@
 body{
+    display: flex;
+    flex-direction: column;
     padding: 10px;
 }
 
-.logo{
-    font-size: xx-large;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight: bolder;
+.header{
+    background-color: #1f2937;
+    display: flex;
 }
+
+
+
+.hero{
+    background-color: #1f2937;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo{
+    font-size: 24px;
+    color: #f9faf8
+}
+
+
+.exp{
+    padding-left: 55px;
+    font-size: 48px;
+    padding-bottom: 60px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.sign{
+    padding-left: 55px;
+    padding-bottom: 70px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.button{
+    font-size: 15px;
+    font-weight: bold;
+     background-color: #3882f6;
+     color: #f9faf8;
+     margin-left: 550px;
+     border-radius: 5px;
+     padding: 10px;
+}
+
+
+
+.cover{
+    height: auto;
+    width: auto;
+    max-width: 500px;
+    max-height: 300px;
+    padding-left: 110px;
+    padding-bottom: 10px;
+}
+
+
 
 .header {
 display: flex;
@@ -15,18 +68,59 @@ justify-content: space-between;
 padding: 30px;
 }
 
-.background{
-    background-image: url(/Content/beans.jpg);
+.offer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 150px;
+    padding-bottom: 100px;
+    padding-left: 205px;
+}
+
+.beans , .beans4{
+    border: 5px solid #3882f6;
+    border-radius: 5px;
+    gap: 100px;
+    max-width: 250px;
+    max-height: 350px;
+}
+
+.beans4{
+    max-width: 260px;
+    max-height: 360px;
+}
+
+.tile1 , .tile2 , .tile3 , .tile4{
+    max-width: 250px;
+    max-height: 350px;
+}
+
+.text1 , .text2 , .text3 , .text4{
+    text-align: center;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 
 ul{
   list-style-type:none; 
   display: flex;
-  gap: 50px; 
+  gap: 50px;
 }
 
 a{
     text-decoration: none;
-    color: burlywood;
-    font-size: x-large;
+    font-size: 18px;
+    color: #e5e7eb;
 }
