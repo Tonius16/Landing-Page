@@ -15,6 +15,7 @@ body{
     background-color: #1f2937;
     display: flex;
     flex-wrap: wrap;
+    padding-bottom: 50px;
 }
 
 .logo{
@@ -84,7 +85,7 @@ padding: 30px;
     flex-wrap: wrap;
     align-items: center;
     gap: 150px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
     padding-left: 205px;
 }
 
@@ -110,6 +111,55 @@ padding: 30px;
     text-align: center;
     font-size: large;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.quote{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 150px;
+}
+
+.text{
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.author{
+    font-size: 25px;
+    color: #1f2937;
+    font-weight: bold;
+    padding-left: 600px;
+    padding-top: 75px;
+}
+
+.signup{
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    margin: 50px;
+    margin-left: 500px;
+    margin-right: 500px;
+    padding: 50px;
+    background-color: #3882f6;
+}
+
+.button2 , .is-style-outline>:where(.wp-block-button__link), :where(.wp-block-button__link).is-style-outline{
+	border: 2px solid;
+
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.divbutton2{
+    align-self: center;
+    margin-left: auto;
 }
 
 
