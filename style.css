@@ -1,7 +1,11 @@
+*{ 
+	margin: 0; 
+	padding: 0; 
+} 
+
 body{
     display: flex;
     flex-direction: column;
-    padding: 10px;
 }
 
 .header{
@@ -47,6 +51,11 @@ body{
      margin-left: 550px;
      border-radius: 5px;
      padding: 10px;
+     transition-duration: 0.4s;
+}
+
+.button:hover{
+    background-color: #1f2937;
 }
 
 
@@ -103,8 +112,13 @@ padding: 30px;
 }
 
 .tile1 , .tile2 , .tile3 , .tile4{
-    max-width: 250px;
-    max-height: 350px;
+    max-width: 260px;
+    max-height: 360px;
+}
+
+.tile3{
+    max-width: 270px;
+    max-height: 360px;
 }
 
 .text1 , .text2 , .text3 , .text4{
@@ -148,7 +162,7 @@ padding: 30px;
 
 .button2 , .is-style-outline>:where(.wp-block-button__link), :where(.wp-block-button__link).is-style-outline{
 	border: 2px solid;
-
+    transition-duration: 0.4s;
     background-color: #3882f6;
     color: #e5e7eb;
     border-radius: 5px;
@@ -157,10 +171,50 @@ padding: 30px;
     padding-right: 25px;
 }
 
+.button2:hover{
+    background-color: #1f2937;
+}
+
 .divbutton2{
     align-self: center;
     margin-left: auto;
 }
+
+.signtext{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.time{
+    font-size: 25px;
+    font-weight:bold;
+    color: #f9faf8;
+}
+
+.sample{
+    font-size: 20px;
+    color: #f9faf8;
+}
+
+.click{
+    font-size: 15;
+    color: #f9faf8;
+}
+
+.footerdiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2937;
+    font-size: 15px;
+    color: #f9faf8;
+    margin-top: 30px;
+    margin-bottom: auto;
+    padding: 10px;
+
+}
+
 
 
 ul{
